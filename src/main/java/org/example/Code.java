@@ -3,6 +3,7 @@ package org.example;
 import java.util.List;
 
 public class Code {
+    // https://leetcode.cn/problems/triangle/
     public int minimumTotal(List<List<Integer>> triangle) {
         int n = triangle.size();
         int dp[] = new int[n + 1];
